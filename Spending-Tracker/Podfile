@@ -1,0 +1,5 @@
+use_frameworks!
+target 'Spending-Tracker' do
+	pod 'Charts', '~> 3.0.2'
+end
+
