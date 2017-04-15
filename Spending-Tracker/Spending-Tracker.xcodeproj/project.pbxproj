@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D13AE7D81EA16E0900E322C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13AE7D71EA16E0900E322C6 /* AppDelegate.swift */; };
-		D13AE7DA1EA16E0900E322C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13AE7D91EA16E0900E322C6 /* ViewController.swift */; };
+		D13AE7DA1EA16E0900E322C6 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13AE7D91EA16E0900E322C6 /* CustomViewController.swift */; };
 		D13AE7DD1EA16E0900E322C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13AE7DB1EA16E0900E322C6 /* Main.storyboard */; };
 		D13AE7E01EA16E0900E322C6 /* Spending_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D13AE7DE1EA16E0900E322C6 /* Spending_Tracker.xcdatamodeld */; };
 		D13AE7E21EA16E0900E322C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13AE7E11EA16E0900E322C6 /* Assets.xcassets */; };
 		D13AE7E51EA16E0900E322C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13AE7E31EA16E0900E322C6 /* LaunchScreen.storyboard */; };
+		D167CFDF1EA1940000AC83EC /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D167CFDE1EA1940000AC83EC /* DashboardViewController.swift */; };
+		D167CFE11EA1CB9800AC83EC /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D167CFE01EA1CB9800AC83EC /* LeftViewController.swift */; };
+		D167CFE31EA1CBBB00AC83EC /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D167CFE21EA1CBBB00AC83EC /* RightViewController.swift */; };
 		E56A213247442F4E033FA701 /* Pods_Spending_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1CB697AF80F220DC8ACFAF /* Pods_Spending_Tracker.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,12 +23,15 @@
 		3D1CB697AF80F220DC8ACFAF /* Pods_Spending_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spending_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13AE7D41EA16E0900E322C6 /* Spending-Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spending-Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13AE7D71EA16E0900E322C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D13AE7D91EA16E0900E322C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D13AE7D91EA16E0900E322C6 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		D13AE7DC1EA16E0900E322C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D13AE7DF1EA16E0900E322C6 /* Spending_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spending_Tracker.xcdatamodel; sourceTree = "<group>"; };
 		D13AE7E11EA16E0900E322C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D13AE7E41EA16E0900E322C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D13AE7E61EA16E0900E322C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D167CFDE1EA1940000AC83EC /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		D167CFE01EA1CB9800AC83EC /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		D167CFE21EA1CBBB00AC83EC /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
 		EA64AF60983E56413943626E /* Pods-Spending-Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spending-Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spending-Tracker/Pods-Spending-Tracker.release.xcconfig"; sourceTree = "<group>"; };
 		FF03483F7D9085B8C268ACAE /* Pods-Spending-Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spending-Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spending-Tracker/Pods-Spending-Tracker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,7 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				D13AE7D71EA16E0900E322C6 /* AppDelegate.swift */,
-				D13AE7D91EA16E0900E322C6 /* ViewController.swift */,
+				D13AE7D91EA16E0900E322C6 /* CustomViewController.swift */,
+				D167CFDE1EA1940000AC83EC /* DashboardViewController.swift */,
+				D167CFE01EA1CB9800AC83EC /* LeftViewController.swift */,
+				D167CFE21EA1CBBB00AC83EC /* RightViewController.swift */,
 				D13AE7DB1EA16E0900E322C6 /* Main.storyboard */,
 				D13AE7E11EA16E0900E322C6 /* Assets.xcassets */,
 				D13AE7E31EA16E0900E322C6 /* LaunchScreen.storyboard */,
@@ -216,8 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D13AE7E01EA16E0900E322C6 /* Spending_Tracker.xcdatamodeld in Sources */,
-				D13AE7DA1EA16E0900E322C6 /* ViewController.swift in Sources */,
+				D13AE7DA1EA16E0900E322C6 /* CustomViewController.swift in Sources */,
 				D13AE7D81EA16E0900E322C6 /* AppDelegate.swift in Sources */,
+				D167CFE11EA1CB9800AC83EC /* LeftViewController.swift in Sources */,
+				D167CFDF1EA1940000AC83EC /* DashboardViewController.swift in Sources */,
+				D167CFE31EA1CBBB00AC83EC /* RightViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +295,8 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -327,7 +340,8 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -383,6 +397,7 @@
 				D13AE7EB1EA16E0900E322C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
