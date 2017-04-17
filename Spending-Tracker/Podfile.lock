@@ -2,13 +2,16 @@ PODS:
   - Charts (3.0.2):
     - Charts/Core (= 3.0.2)
   - Charts/Core (3.0.2)
+  - PureLayout (2.0.6)
 
 DEPENDENCIES:
   - Charts (~> 3.0.2)
+  - PureLayout (~> 2.0.5)
 
 SPEC CHECKSUMS:
   Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
 
-PODFILE CHECKSUM: ebf8bfba472450e6ac816e84bebbae0eeb67b36d
+PODFILE CHECKSUM: 4da4595f39330619545ba677b4bce79935356fb1
 
 COCOAPODS: 1.2.1

@@ -14,10 +14,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PureLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>069B95B4EC13330B1DC3A3B1E192D2B2</key>
+		<key>25DB20F955480E13C1558E858143FA13</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>93914953EDB195AE8931102B099ED403</key>
 		<dict>
 			<key>primary</key>
 			<true/>

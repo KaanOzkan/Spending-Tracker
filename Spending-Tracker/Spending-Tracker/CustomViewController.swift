@@ -9,6 +9,8 @@
 import UIKit
 
 // This CustomViewVController holds a container view for the 3 views. Those views are handled by their own ViewContollers
+// Any additional customizations to the views should be done within their ViewControllers not this CustomViewController
+
 class CustomViewController: UIViewController, UIScrollViewDelegate {
 	@IBOutlet weak var scrollView: UIScrollView!
 	private var viewControllers = [UIViewController]()
@@ -42,10 +44,11 @@ class CustomViewController: UIViewController, UIScrollViewDelegate {
 
 	func setupScrollView(_ scrollView: UIScrollView, width: CGFloat, height: CGFloat) {
 		// 3 views therefore * 3
-		scrollView.contentSize = CGSize(width: width*3, height: 1.0)
-		self.scrollView.isPagingEnabled = true
-		self.scrollView.showsVerticalScrollIndicator = false
-		self.scrollView.showsHorizontalScrollIndicator = false
+		scrollView.contentSize = CGSize(width: width * 3, height: 1.0)
+		scrollView.isPagingEnabled = true
+		scrollView.showsVerticalScrollIndicator = false
+		scrollView.showsHorizontalScrollIndicator = false
+		scrollView.contentOffset = CGPoint(x: width, y: 0)
 	}
 
 
