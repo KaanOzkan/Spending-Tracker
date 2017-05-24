@@ -14,6 +14,7 @@
 		D13AE7E01EA16E0900E322C6 /* Spending_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D13AE7DE1EA16E0900E322C6 /* Spending_Tracker.xcdatamodeld */; };
 		D13AE7E21EA16E0900E322C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13AE7E11EA16E0900E322C6 /* Assets.xcassets */; };
 		D13AE7E51EA16E0900E322C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13AE7E31EA16E0900E322C6 /* LaunchScreen.storyboard */; };
+		D14CA27E1EA5C1A9006FB061 /* SpendingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14CA27D1EA5C1A9006FB061 /* SpendingModel.swift */; };
 		D15F0BCE1EA3E9D700C65200 /* pieChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15F0BCD1EA3E9D700C65200 /* pieChart.xib */; };
 		D167CFDF1EA1940000AC83EC /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D167CFDE1EA1940000AC83EC /* DashboardViewController.swift */; };
 		D167CFE11EA1CB9800AC83EC /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D167CFE01EA1CB9800AC83EC /* LeftViewController.swift */; };
@@ -32,6 +33,7 @@
 		D13AE7E11EA16E0900E322C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D13AE7E41EA16E0900E322C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D13AE7E61EA16E0900E322C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14CA27D1EA5C1A9006FB061 /* SpendingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpendingModel.swift; sourceTree = "<group>"; };
 		D15F0BCD1EA3E9D700C65200 /* pieChart.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pieChart.xib; sourceTree = "<group>"; };
 		D167CFDE1EA1940000AC83EC /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		D167CFE01EA1CB9800AC83EC /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				D13AE7E31EA16E0900E322C6 /* LaunchScreen.storyboard */,
 				D13AE7E61EA16E0900E322C6 /* Info.plist */,
 				D13AE7DE1EA16E0900E322C6 /* Spending_Tracker.xcdatamodeld */,
+				D14CA27D1EA5C1A9006FB061 /* SpendingModel.swift */,
 			);
 			path = "Spending-Tracker";
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				D167CFE11EA1CB9800AC83EC /* LeftViewController.swift in Sources */,
 				D167CFDF1EA1940000AC83EC /* DashboardViewController.swift in Sources */,
 				D167CFE31EA1CBBB00AC83EC /* RightViewController.swift in Sources */,
+				D14CA27E1EA5C1A9006FB061 /* SpendingModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

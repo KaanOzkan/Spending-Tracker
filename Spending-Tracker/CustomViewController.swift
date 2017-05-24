@@ -12,7 +12,8 @@ import UIKit
 // Any additional customizations to the views should be done within their ViewControllers not this CustomViewController
 
 class CustomViewController: UIViewController, UIScrollViewDelegate {
-	@IBOutlet weak var scrollView: UIScrollView!
+	@IBOutlet var scrollView: UIScrollView!
+
 	private var viewControllers = [UIViewController]()
 	private var pageControl = UIPageControl(frame: .zero)
 
@@ -84,6 +85,8 @@ class CustomViewController: UIViewController, UIScrollViewDelegate {
 			originX = CGFloat(viewControllerID) * width
 			viewController.view.frame = CGRect(x: originX, y: 0, width: width, height: height)
 			scrollView.addSubview(viewController.view)
+			//TODO: remove
+			print(type(of: self.view!))
 			viewController.didMove(toParentViewController: self)
 			viewControllerID += 1
 		}

@@ -12,16 +12,13 @@ import Charts
 // Dashboard is the first screen user sees
 class DashboardViewController: UIViewController {
 	
-	@IBOutlet weak var customView: dashboardView!
+	//@IBOutlet weak var pieChart: UIView!
 	@IBOutlet weak var pieChart: UIView!
-	
-	//var customView: dashboardView = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
-		self.view.addSubview(customView)
-		self.customView.addSubview(pieChart)
-
+		//self.view.addSubview(customView)
+		//self.customView.addSubview(pieChart)
 
         // Do any additional setup after loading the view.
     }
