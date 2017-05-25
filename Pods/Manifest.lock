@@ -1,0 +1,33 @@
+PODS:
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.2.0):
+    - GoogleMaps (= 2.2.0)
+    - GooglePlaces (= 2.2.0)
+  - GooglePlaces (2.2.0):
+    - GoogleMaps/Base (= 2.2.0)
+  - PureLayout (2.0.6)
+
+DEPENDENCIES:
+  - Charts (~> 3.0.2)
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - PureLayout (~> 2.0.5)
+
+SPEC CHECKSUMS:
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  GooglePlacePicker: 345b1aabd42c9d6d9bf2369c1bae1234d903e764
+  GooglePlaces: bca867d5e9da15384c794b945e4226848bc6e9d9
+  PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
+
+PODFILE CHECKSUM: 254d546744882a730b90f6eeedc4094e21a214cd
+
+COCOAPODS: 1.2.1
