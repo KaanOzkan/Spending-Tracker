@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PureLayout
 
 // This CustomViewVController holds a container view for the 3 views. Those views are handled by their own ViewContollers
 // Any additional customizations to the views should be done within their ViewControllers not this CustomViewController
@@ -74,7 +75,7 @@ class CustomViewController: UIViewController, UIScrollViewDelegate {
 	}
 
 	func setupViewControllers(_ viewControllers: [UIViewController], width: CGFloat, height: CGFloat) {
-		// Numerical ID of the viewController (1,2,3)
+		// Numerical ID of the viewController (0,1,2)
 		var viewControllerID = 0
 		//  Start of the new view
 		var originX: CGFloat
@@ -85,8 +86,6 @@ class CustomViewController: UIViewController, UIScrollViewDelegate {
 			originX = CGFloat(viewControllerID) * width
 			viewController.view.frame = CGRect(x: originX, y: 0, width: width, height: height)
 			scrollView.addSubview(viewController.view)
-			//TODO: remove
-			print(type(of: self.view!))
 			viewController.didMove(toParentViewController: self)
 			viewControllerID += 1
 		}
